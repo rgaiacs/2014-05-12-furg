@@ -11,25 +11,29 @@ enddate: 2014-04-13
 latlng: -32.07385,-52.16721
 registration: open
 instructor: ["Raniere Silva", "Fernando Mayer"]
-contact: admin@software-carpentry.org
+contact: raniere@ime.unicamp.br
 ---
 
-<h2>General Information</h2>
+<p><a href="index-en.html">English version</a></p>
+
+<h2>Informações Gerais</h2>
 
 <p>
-  <a href="http://software-carpentry.org">Software Carpentry</a>'s mission
-  is to help scientists and engineers become more productive
-  by teaching them basic lab skills for computing
-  like program design, version control, data management, and task automation.
-  This two-day hands-on bootcamp will cover basic concepts and tools;
-  participants will be encouraged to help one another
-  and to apply what they have learned to their own research problems.
+  A missão da <a href="http://software-carpentry.org">Software Carpentry</a>
+  é ajudar cientistas e engenheiros a serem mais produtivos ao ensinar
+  habilidades computacionais básicas como programação, controle de versão,
+  gerenciamento de dados e automatização de tarefas. Este workshop irá cobrir
+  conceitos e ferramentas básicas.
+</p>
+<p>
+  Os participantes são encorajados a ajudar uns
+  aos outros e aplicar o que aprenderem em suas próprias pesquisas.
 </p>
 
 <!-- This block displays the instructors' names if they are available. -->
 {% if page.instructor %}
 <p>
-  <strong>Instructors:</strong>
+  <strong>Instrutores:</strong>
   {{page.instructor | join: ', ' %}}
 </p>
 {% endif %}
@@ -40,8 +44,8 @@ contact: admin@software-carpentry.org
     or if specialized prerequisite knowledge is required, please mention that.
 -->
 <p>
-  <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  <strong>Público:</strong>
+  Este curso é destinado a alunos de pós-graduação.
 </p>
 
 <!--
@@ -49,11 +53,11 @@ contact: admin@software-carpentry.org
 -->
 {% if page.latlng %}
 <p>
-  <strong>Where:</strong>
+  <strong>Onde:</strong>
   {{ page.address }}.
-  Get directions with
+  Direções encontram-se disponíveis em
   <a href="http://www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
-  or
+  ou
   <a href="http://maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
 </p>
 {% endif %}
@@ -62,9 +66,9 @@ contact: admin@software-carpentry.org
     Modify the block below if there are any special requirements.
 -->
 <p>
-  <strong>Requirements:</strong>
-  Participants must bring a laptop with a few specific software packages installed
-  (listed below).
+  <strong>Requisitos:</strong>
+  Participantes devem trazer seu notebook com os programas listados abaixo já
+  instalados.
 </p>
 
 <!--
@@ -72,41 +76,33 @@ contact: admin@software-carpentry.org
     If one hasn't, this block inserts the generic contact address for Software Carpentry.
 -->
 <p>
-  <strong>Contact</strong>:
-  Please mail
+  <strong>Contatos:</strong>:
+  Para maiores informações enviar enviar um email para
   {% if page.contact %}
     <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
   {% else %}
     <a href='mailto:{{site.contact}}'>{{site.contact}}</a>
   {% endif %}
-  for more information.
+  .
 </p>
 
 <hr/>
 
-<!--
-    Edit this block to show the syllabus and schedule for your bootcamp.
--->
-<h2>Schedule</h2>
+<h2>Programação</h2>
 
-<p>Coming soon.</p>
-<!--
 <table class="table table-striped">
-  <tr> <td>Monday</td>  <td>09:00</td>  <td>Introduction to task automation with the Unix shell</td> </tr>
-  <tr> <td></td>        <td></td>       <td>Coffee will be served at 10:30.</td> </tr>
-  <tr> <td></td>        <td>12:00</td>  <td>Lunch break</td> </tr>
-  <tr> <td></td>        <td>13:00</td>  <td>Building programs with Python</td> </tr>
-  <tr> <td></td>        <td></td>       <td>Coffee will be served at 14:30.</td> </tr>
-  <tr> <td></td>        <td>16:00</td>  <td>Wrap-up</td> </tr>
-  <tr> <td>Tuesday</td> <td>09:00</td>  <td>Version control with Git</td> </tr>
-  <tr> <td></td>        <td></td>       <td>Coffee will be served at 10:30.</td> </tr>
-  <tr> <td></td>        <td>12:00</td>  <td>Lunch break</td> </tr>
-  <tr> <td></td>        <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-  <tr> <td></td>        <td></td>       <td>Coffee will be served at 14:30.</td> </tr>
-  <tr> <td></td>        <td>15:00</td>  <td>Putting it all together</td> </tr>
-  <tr> <td></td>        <td>16:00</td>  <td>Wrap-up</td> </tr>
+  <tr> <td>Segunda</td>  <td>08:00</td>  <td>Solução de problemas com a
+      instalação dos programas</td> </tr>
+  <tr> <td></td>        <td>09:30</td>  <td>Introdução a automação de tarefas</td> </tr>
+  <tr> <td></td>        <td>12:00</td>  <td>Pausa para almoço</td> </tr>
+  <tr> <td></td>        <td>14:00</td>  <td>Introdução ao R</td> </tr>
+  <tr> <td></td>        <td>17:30</td>  <td>Encerramento</td> </tr>
+  <tr> <td>Terça</td> <td>09:00</td>  <td>Controle de versão com Git</td> </tr>
+  <tr> <td></td>        <td>12:00</td>  <td>Pausa para almoço</td> </tr>
+  <tr> <td></td>        <td>14:00</td>  <td>Criando gráficos no R</td> </tr>
+  <tr> <td></td>        <td>16:30</td>  <td>Juntando as ferramentas</td> </tr>
+  <tr> <td></td>        <td>17:30</td>  <td>Encerramento</td> </tr>
 </table>
--->
 
 <hr/>
 
@@ -118,11 +114,9 @@ contact: admin@software-carpentry.org
 <h2>Setup</h2>
 
 <p>
-  To participate in a Software Carpentry bootcamp, 
-  you will need working copies of the software described below.
-  Please make sure to install everything
-  (or at least to download the installers)
-  <em>before</em> the start of your bootcamp.
+  Para participar do workshop da Software Carpentry,
+  você irá precisar dos programas descritos a seguir instalados.
+  Instale todos os programas antes do workshop.
 </p>
 
 {% include setup.html %}
