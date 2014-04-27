@@ -12,9 +12,16 @@ latlng: -32.07385,-52.16721
 registration: open
 instructor: ["Raniere Silva", "Fernando Mayer"]
 contact: raniere@ime.unicamp.br
+eventbrite: 11429715587
 ---
 
 <p><a href="index-en.html">English version</a></p>
+
+{% if page.eventbrite %}
+<iframe
+ src="http://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt&v=2"
+ frameborder="0" width="100%" scrolling="auto"></iframe>
+{% endif %}
 
 <h2>Informações Gerais</h2>
 

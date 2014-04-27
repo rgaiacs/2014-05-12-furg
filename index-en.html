@@ -5,16 +5,23 @@ venue: Universidade Federal do Rio Grande
 address: Av. Italia, km 8
 country: Brazil
 humandate: May 12-13, 2014
-humantime: 9:00 am - 4:30 pm
+humantime: 8:00 am - 5:30 pm
 startdate: 2014-06-12
 enddate: 2014-04-13
 latlng: -32.07385,-52.16721
 registration: open
 instructor: ["Raniere Silva", "Fernando Mayer"]
-contact: admin@software-carpentry.org
+contact: raniere@ime.unicamp.br
+eventbrite: 11429715587
 ---
 
 <h2>General Information</h2>
+
+{% if page.eventbrite %}
+<iframe
+ src="http://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt&v=2"
+ frameborder="0" width="100%" scrolling="auto"></iframe>
+{% endif %}
 
 <p>
   <a href="http://software-carpentry.org">Software Carpentry</a>'s mission
