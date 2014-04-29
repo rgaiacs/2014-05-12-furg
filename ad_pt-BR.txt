@@ -20,10 +20,11 @@ professor do Instituto de Matemática, Estatística e Física (IMEF) da
 FURG.
 
 O workshop do Software Carpentry é "hands-on", então os participantes
-devem trazer seus próprios laptops. Os softwares necessários devem ser
-instalados antes do curso. Haverá um período no início do
-workshop para ajudar aqueles que tiveram alguma dificuldade de
-instalação dos programas.
+devem trazer seus próprios laptops com os softwares necessários já
+instalados. Haverá um período no início do workshop para ajudar aqueles
+que tiveram alguma dificuldade na instalação dos programas, mas tente
+resolver seu problema antes procurando na internet ou enviando um email
+para os instrutores.
 
 Maiores informações sobre a instalação dos softwares, inscrição e
 detalhes sobre o workshop podem ser encontradas em
