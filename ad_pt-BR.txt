@@ -1,5 +1,5 @@
 Entre os dias 12 e 13 de maio de 2014, estaremos realizando um workshop
-do Software Carpentry, e gostariamos de convidar todos os
+do Software Carpentry na FURG, e gostariamos de convidar todos os
 interessados. O Software Carpentry é um projeto sem fins lucrativos e
 que faz parte do Mozilla Science Lab. O objetivo do projeto é ensinar
 conceitos básicos de computação para pesquisadores, para que eles possam
