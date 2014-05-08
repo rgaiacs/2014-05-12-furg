@@ -1,0 +1,34 @@
+Entre os dias 12 e 13 de maio de 2014, estaremos realizando um workshop
+do Software Carpentry na FURG, e gostariamos de convidar todos os
+interessados. O Software Carpentry é um projeto sem fins lucrativos e
+que faz parte do Mozilla Science Lab. O objetivo do projeto é ensinar
+conceitos básicos de computação para pesquisadores, para que eles possam
+fazer mais em menos tempo. No workshop serão abordados os seguintes temas
+
+      - Introdução ao shell Unix
+      - Introdução à programação usando o R
+      - Controle de versões usando Git (e GitHub)
+
+Os workshops do Software Carpentry já foram realizados em diversos
+países como Austrália, Canadá, Estados Unidos e Reino Unido, e pela
+primeira vez será realizado em um país da América do Sul.
+
+Os instrutores são voluntários e aprenderam a usar estas ferramentas
+para otimizar seus trabalhos: Raniere Silva é estudante do curso de
+Matemática Aplicada e Computacional da UNICAMP, e Fernando Mayer é
+professor do Instituto de Matemática, Estatística e Física (IMEF) da
+FURG.
+
+O workshop do Software Carpentry é "hands-on", então os participantes
+devem trazer seus próprios laptops com os softwares necessários já
+instalados. Haverá um período no início do workshop para ajudar aqueles
+que tiveram alguma dificuldade na instalação dos programas, mas tente
+resolver seu problema antes procurando na internet ou enviando um email
+para os instrutores.
+
+Maiores informações sobre a instalação dos softwares, inscrição e
+detalhes sobre o workshop podem ser encontradas em
+http://r-gaia-cs.github.io/2014-05-12-furg. Para informações gerais
+sobre o Software Carpentry, acesse http://software-carpentry.org.
+
+
