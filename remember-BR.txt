@@ -1,0 +1,22 @@
+Olá,
+
+você está recebendo esse email porque inscreveu-se para o workshop
+do Software Carpentry na FURG [1] que irá ocorrer entre os dias 12 e 13 de maio
+de 2014, próxima segunda e terça. Aqui encontram-se alguns lembretes.
+
+1. Preencher o questionário disponível em
+   https://docs.google.com/forms/d/1kg3emACy9IBpfPT1FmNnw-PCMgSGZpPMFAgGP4vZNQ0/viewform.
+2. Ainda temos algumas vagas. Convide um colega seu para participar.
+3. O workshop será realizado na Estação de Apoio Antártico (ESANTAR), ou
+   simplesmente "sala da ESANTAR" na base oceanográfica.
+4. Instale os programas indicados em [1] na notebook que irá utilizar durante o
+   workshop. Caso você tenha alguma dificuldade, responda esse email para
+   tentarmos resolvê-lo. Se mesmo com ajuda por email ainda não conseguir
+   resolver seu problema, às 08:00 da segunda-feira estaremos disponíveis para
+   ajudar na sala da ESANTAR.
+5. Na segunda-feira, o workshop inicia às 09:00.
+
+Grato pela atenção,
+Raniere
+
+[1] http://r-gaia-cs.github.io/2014-05-12-furg/
