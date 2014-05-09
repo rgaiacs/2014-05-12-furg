@@ -19,14 +19,14 @@ eventbrite: 11429715587
 
 {% if page.eventbrite %}
 <iframe
- src="http://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt&v=2"
+ src="//www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt&v=2"
  frameborder="0" width="100%" scrolling="auto"></iframe>
 {% endif %}
 
 <h2>Informações Gerais</h2>
 
 <p>
-  A missão da <a href="http://software-carpentry.org">Software Carpentry</a>
+  A missão da <a href="//software-carpentry.org">Software Carpentry</a>
   é ajudar cientistas e engenheiros a serem mais produtivos ao ensinar
   habilidades computacionais básicas como programação, controle de versão,
   gerenciamento de dados e automatização de tarefas. Este workshop irá cobrir
@@ -63,9 +63,9 @@ eventbrite: 11429715587
   <strong>Onde:</strong>
   {{ page.address }}.
   Direções encontram-se disponíveis em
-  <a href="http://www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
+  <a href="//www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
   ou
-  <a href="http://maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
 </p>
 {% endif %}
 
