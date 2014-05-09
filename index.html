@@ -2,13 +2,13 @@
 layout: bootcamp
 root: .
 venue: Universidade Federal do Rio Grande
-address: Av. Italia, km 8
+address: Av. Itália, km 8, sala da ESANTAR, IO
 country: Brazil
 humandate: 12 e 13 de Maio, 2014
 humantime: 8:00 - 17:30
 startdate: 2014-06-12
 enddate: 2014-04-13
-latlng: -32.07385,-52.16721
+latlng: -32.06811,-52.16238
 registration: open
 instructor: ["Raniere Silva", "Fernando Mayer"]
 contact: raniere@ime.unicamp.br
@@ -62,7 +62,13 @@ eventbrite: 11429715587
 <p>
   <strong>Onde:</strong>
   {{ page.address }}.
+<<<<<<< HEAD
   Direções encontram-se disponíveis em
+  <a href="//www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
+  A sala fica
+  na <a href="//www.io.furg.br/index.php/unidades-e-centros-associados/esantar.html">Estação
+  de Apoio Antártico (ESANTAR)</a> , no Instituto de Oceanografia (IO)
+  da FURG. Direções encontram-se disponíveis em
   <a href="//www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
   ou
   <a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
@@ -100,6 +106,7 @@ eventbrite: 11429715587
 <table class="table table-striped">
   <tr> <td>Segunda</td>  <td>08:00</td>  <td>Solução de problemas com a
       instalação dos programas</td> </tr>
+  <tr> <td></td>        <td>09:00</td>  <td>Abertura</td> </tr>
   <tr> <td></td>        <td>09:30</td>  <td>Introdução a automação de tarefas</td> </tr>
   <tr> <td></td>        <td>12:00</td>  <td>Pausa para almoço</td> </tr>
   <tr> <td></td>        <td>14:00</td>  <td>Introdução ao R</td> </tr>
